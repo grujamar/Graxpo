@@ -1,8 +1,74 @@
 
 html{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 img{
     max-width: 100%;
 }
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'LeckerliOne', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADER START*/
+.navbar-brand h1{
+    color: #E84C3D;
+}
+
+.navbar-brand{
+    max-width: 50%;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #E84C3D;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232, 76, 61, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav li{
+    background: #DCDCDC;
+/*    border-bottom: 1px solid #E84C3D;*/
+    text-align: center;
+    transition: 0.5s linear;
+}
+
+.navbar-nav li:hover,
+.navbar-nav li.active{
+    background: #E84C3D;
+} 
+
+.navbar-nav li a.nav-link{
+    text-transform: uppercase;
+    color: #000 !important;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s linear;
+}
+
+.navbar-nav li:hover a.nav-link,
+.navbar-nav li.active a{
+    color: #fff !important;
+}
+
+#main-menu{
+    margin: 0 -15px; /*da ide od ivice do ivice. dodato i px-0 u <nav class="navbar navbar-expand-md navbar-light px-0">*/
+}
+
+/*Main*/
