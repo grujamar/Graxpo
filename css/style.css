@@ -108,10 +108,72 @@ p{
     font-size: 13px;
 }
 
+.about a{
+   text-transform: uppercase; 
+}
+
 .btn-danger{
     background-color: #E84C3D !important;
 }
 
 .btn-danger:hover{
     background-color: #c22617 !important;
+}
+
+/*WHAT-WE-DO section*/
+.what-we-do h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #81868E;
+}
+
+.what-we-do p{
+    font-size: 13px;
+    color:#81868E;
+}
+
+.what-we-do .left-content{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background: #E84C3D;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+
+.what-we-do .left-content .fa{
+    font-size: 45px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top:35%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+.what-we-do .what-we-do-article{
+    border:1px solid #81868E;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.what-we-do .what-we-do-article:hover{
+    background: #E84C3D;
+    color:#fff;
+}
+
+.what-we-do .what-we-do-article:hover .left-content{
+    background: #fff;
+}
+
+.what-we-do .what-we-do-article:hover .fa{
+    color: #E84C3D;
+}
+
+.what-we-do .what-we-do-article:hover h2,
+.what-we-do .what-we-do-article:hover p{
+    color: #fff;
 }
