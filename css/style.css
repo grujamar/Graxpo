@@ -24,6 +24,14 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
+.tittle-color{
+    color: #333B46;
+}
+
+.item-color{
+    color:#81868E;
+}
+
 /*HEADER START*/
 .navbar-brand h1{
     color: #E84C3D;
@@ -72,3 +80,16 @@ p{
 }
 
 /*Main*/
+.lead{
+    padding: 350px 0;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.lead h2{
+    font-size: 25px;
+}
+
+.lead p{
+    font-size: 1rem;
+}
