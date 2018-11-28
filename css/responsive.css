@@ -18,6 +18,7 @@
         background: transparent;
         border-bottom: 2px solid transparent;
         transition: 0.5s linear;
+        padding: 0 10px;
     }
 
     .navbar-nav li:hover,
@@ -29,20 +30,20 @@
     .navbar-nav li a.nav-link{
         text-transform: uppercase;
         color: #000 !important;
-        transition: 0.5s linear;
+        transition: 0.5s linear;       
     }
 
     .navbar-nav li:hover a.nav-link,
     .navbar-nav li.active a{
         color: #E84C3D !important;
     }
-    
+
     #main-menu{
         margin: 0px;
     }
 
     .navbar-brand{
-        max-width: 130px;/*da moze logo da stane*/
+        max-width: 170px;/*da moze logo da stane*/
     }
 
     /*Main*/
@@ -60,6 +61,14 @@
         letter-spacing: 5px;
     }
 
+    /*about section*/
+    .custom-padding{
+        padding: 115px 0 !important;
+    }
+
+    .about p{
+        font-size: 14px;
+    }
 
 }
 
@@ -68,6 +77,10 @@
 
     html{
         font-size: 14px;
+    }
+
+    .container{
+        max-width: 1200px; /*1170+30 zbog paddin-ga*/
     }
 
 
