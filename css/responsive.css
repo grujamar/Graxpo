@@ -74,6 +74,11 @@
         font-size: 13px;
     }
 
+    .what-we-do .what-we-do-article{
+        padding: 20px;
+    }
+
+
 }
 
 
@@ -87,7 +92,21 @@
         max-width: 1200px; /*1170+30 zbog paddin-ga*/
     }
 
+    statistics{
+        padding: 150px 0;
+    }
 
+    .statistics article .fa{
+        font-size: 40px;
+    }
+
+    .statistics article span{
+        font-size: 40px;
+    }
+
+    .statistics article h2{
+        font-size: 16px;
+    }
 }
 
 
@@ -97,7 +116,9 @@
 @media(min-width:1200px){
 
 
-
+    .what-we-do .left-content .fa{
+        font-size: 45px;
+    }
 
 
 }
