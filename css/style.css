@@ -124,7 +124,6 @@ p{
 .what-we-do h2{
     font-size: 20px;
     text-transform: uppercase;
-    color: #81868E;
 }
 
 .what-we-do p{
@@ -218,6 +217,11 @@ p{
     background: #ECECEC;
 }
 
+.crew p{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
 .crew .hover{
     position: absolute;
     bottom:3%;
@@ -259,4 +263,39 @@ p{
     font-size: 12px;
     text-align: center;
 }
+
+/*subscribe*/
+.subscribe{
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center center;  
+}
+
+.subscribe article h2{
+    font-size: 18px;
+}
+
+.subscribe article p{
+    font-size: 13px;
+}
+
+.subscribe input{
+    background: transparent;
+    color:#fff;
+}
+
+.subscribe input:focus{
+    background: #c22617;
+    color:#fff;
+}
+
+.subscribe button{
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
+.subscribe input::placeholder {
+  color: #fff;
+}
+
 
