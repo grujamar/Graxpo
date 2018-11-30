@@ -47,16 +47,16 @@
     }
 
     /*Main*/
-    .lead{
+    .lead-section{
         padding: 400px 0;  
     }
 
-    .lead h2{
+    .lead-section h2{
         font-size: 35px;
         letter-spacing: 5px;
     }
 
-    .lead p{
+    .lead-section p{
         font-size: 16px;
         letter-spacing: 5px;
     }
@@ -76,6 +76,11 @@
 
     .what-we-do .what-we-do-article{
         padding: 20px;
+    }
+
+    /*submit section*/
+    .submit{
+        padding: 130px 0;
     }
 
 
@@ -127,7 +132,8 @@
 
 
     .what-we-do .left-content .fa{
-        font-size: 45px;
+        font-size: 50px;
+        top:30%;
     }
 
 
