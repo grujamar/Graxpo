@@ -102,7 +102,7 @@ p{
 
 /*Main*/
 .lead-section{
-    padding: 350px 0;
+    padding: 200px 0;
     background-size: cover;
     background-position: center center;   
 }
@@ -153,8 +153,8 @@ p{
 }
 
 .what-we-do .left-content{
-    width: 108px;
-    height: 108px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background: #E84C3D;
     overflow: hidden;
@@ -162,11 +162,11 @@ p{
 }
 
 .what-we-do .left-content .fa{
-    font-size: 45px;
+    font-size: 35px;
     color: #fff;
     text-decoration: none;
     position: relative;
-    top:35%;
+    top:30%;
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
@@ -204,7 +204,7 @@ p{
 
 /*section statistics*/
 .statistics{
-    padding: 100px 0;
+    padding: 50px 0;
     background-size: cover;
     background-position: center center;  
 }
@@ -236,13 +236,18 @@ p{
     margin: 0 auto;
 }
 
+/*da bi na manjim rezolucijama mogao da se odradi lepo hover*/
+.crew article{
+    max-width: 260px;
+    margin: auto;
+}
+
 .crew .hover{
     position: absolute;
     bottom:3%;
     left: 3%;
     right: 3%;
     text-decoration: none;
-    display: block;
     padding: 10px;
     background: rgba(232,76,61,0.8);
     color:rgba(255,255,255,0.7);
@@ -250,7 +255,7 @@ p{
     display: none;
 }
 
-.crew article:hover .hover{
+.crew article figure:hover .hover{
     display: block;
 }
 
@@ -364,7 +369,7 @@ p{
 }
 
 .subscribe input::placeholder {
-    color: gray;
+    color: #fff;
 }
 
 /*FOOTER*/

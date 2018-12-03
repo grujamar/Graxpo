@@ -4,8 +4,14 @@
 @media(min-width:576px){
 
 
+    .what-we-do .left-content{
+        width: 90px;
+        height: 90px;
+    }
 
-
+    .what-we-do .left-content .fa{
+        font-size: 40px;
+    }
 
 
 }
@@ -75,7 +81,12 @@
     }
 
     .what-we-do .what-we-do-article{
-        padding: 20px;
+        padding: 15px;
+    }
+
+    .what-we-do .left-content{
+        width: 108px;
+        height: 108px;
     }
 
     /*submit section*/
@@ -83,6 +94,9 @@
         padding: 130px 0;
     }
 
+    .statistics{
+        padding: 100px 0;
+    }
 
 }
 
